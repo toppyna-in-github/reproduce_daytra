@@ -1,0 +1,123 @@
+body{
+  margin:0;
+}
+
+* {
+  color:#082b48;
+}
+
+.container{
+  margin:0 auto;
+  width:960px;
+}
+
+
+header{
+  display:flex;
+  margin:0 auto;
+}
+
+.days{
+  font-weight:600;
+  font-size:24px;
+  flex:3;
+}
+
+button{
+  font-weight:600;
+  font-size:18px;
+  flex:1;
+  border-style: none;
+  background-color:white;
+  outline: none;
+}
+
+.mainimg{
+  width:1000px;
+  height:100%
+  object-fit:cover;
+}
+/*imgタグは、インライン要素でありながらCSSプロパティwidth,height,margin,floatの指定が有効
+インライン要素でありながらCSSプロパティpaddingの指定が無効
+widthとheightを指定がない場合、widthとheightはその画像自身のサイズに依存する
+CSSプロパティdisplayの指定が無効
+http://rikiy.jp/report/css/20070220.html */
+
+
+h2{
+  font-size:1.5rem;
+  text-align:center;
+}
+
+.daytra{
+  display:flex;
+
+}
+
+.whatisdaytra{
+  margin:0 0 0 10px;
+  font-weight:600;
+}
+
+
+.about{
+  width:50%;
+  height:300px;
+  object-fit:cover;
+  
+}
+
+.coursecontainer{
+  display:flex;
+  justify-content: center;
+  font-weight:600;
+}
+
+
+.firstimg, .secondimg, .thirdimg{
+  width:260px;
+  height:120px;
+  object-fit:cover;
+  
+}
+
+.question{
+  text-align:center;
+  margin:0;
+}
+.question p + p + p{
+  margin:10px;
+} 
+/*隣接兄弟結合子　しまぶーCSS＃３*/
+
+.letsstart{
+  font-size:10px;
+  font-weight:600;
+  margin:10px 0 0 0;
+}
+
+.mail{
+  padding: 10px 120px;
+  border-radius: 100vh;
+  border:2px solid #efefef;
+  outline: none;
+  
+}
+
+
+.startfree{
+  background-color:#ec6d64;
+  color:white;
+  font-weight:600;
+  border-style:none;
+  padding: 10px 80px;
+  outline: none;
+}
+
+footer{
+  display:flex;
+  justify-content: flex-end;
+  font-weight:600;
+  padding:10px 20px 20px 20px;
+  border-top: gray solid 1px;
+}
